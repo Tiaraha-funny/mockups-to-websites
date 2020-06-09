@@ -3,3 +3,11 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+
+@media (min-width:768px) {
+
+  .heandings {
+    padding-inline-end: 7rem;
+    padding-inline-start: 5rem;
+  }
+}

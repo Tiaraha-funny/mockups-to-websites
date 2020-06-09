@@ -6,3 +6,9 @@
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
+
+@media (min-width:768px) {
+  .a11y {
+    line-height: 3rem;
+  }
+}
