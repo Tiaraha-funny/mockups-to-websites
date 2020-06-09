@@ -14,3 +14,17 @@
   border-block-start: 2px solid #EBEDED;
   padding-block-start: 2.5rem;
 }
+
+
+@media (min-width:768px) {
+
+  #section_happening_now {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #section_happening_now header,
+  #section_happening_now .article_card {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}

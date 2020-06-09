@@ -37,3 +37,13 @@
   order: 3;
   color: #A6ADB4;
 }
+
+
+@media (min-width:768px) {
+  .article_simple {
+    margin-inline-end: 2rem;
+  }
+  .article_simple:nth-of-type(3) {
+    display: none;
+  }
+}
