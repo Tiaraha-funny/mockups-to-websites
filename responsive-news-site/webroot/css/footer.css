@@ -71,9 +71,9 @@ body > footer a {
     height: 100px;
   }
   .links_social {
-    align-items: flex-end;
-    margin-left: 10rem;
-}
+    align-self: flex-end;
+    margin-left: 12rem;
+  }
  .links_site {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
