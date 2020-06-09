@@ -58,3 +58,36 @@ body > footer a {
   justify-content: space-between;
   max-width: 8.5rem;
 }
+
+@media (min-width:768px) {
+
+  body > footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline-start: 2rem;
+  }
+  body > footer > h2 {
+    margin: 0;
+    height: 100px;
+  }
+  .links_social {
+    align-items: flex-end;
+    margin-left: 10rem;
+}
+ .links_site {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+  padding: 0;
+}
+.link_primary {
+  display: block;
+  line-height: 1px;
+}
+.link_primary:nth-of-type(1) {
+  margin-block-start: 0;
+}
+.link_secondary:nth-of-type(1) {
+  margin-block-start: 0;
+}
+}
