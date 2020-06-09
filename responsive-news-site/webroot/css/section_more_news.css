@@ -28,11 +28,4 @@
 
 @media (min-width: 768px) {
 
-.articles {
-    display: flex;
-    flex-direction: row;
-}
-.articles article {
-  justify-content: space-around;
-}
 }

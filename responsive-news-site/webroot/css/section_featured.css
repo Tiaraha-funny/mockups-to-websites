@@ -22,3 +22,10 @@
 #section_featured footer {
   display: none;
 }
+
+@media (min-width:768px) {
+
+  #section_featured article {
+
+  }
+}
