@@ -21,6 +21,7 @@
   #section_happening_now {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-inline-start: 5rem;
   }
   #section_happening_now header,
   #section_happening_now .article_card {

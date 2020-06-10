@@ -27,5 +27,12 @@
 }
 
 @media (min-width: 768px) {
-
+  #section_more_news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline-start: 5rem;
+  }
+  #section_more_news article p {
+    margin-inline-end: 4rem;
+  }
 }

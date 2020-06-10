@@ -30,17 +30,5 @@ article {
 
 
 @media (min-width:768px) {
-  .articles {
-    display: flex;
-    flex-direction: row;
 }
-
-.descriptions {
-  padding-inline-end: 5rem;
-}
-
-.articles .article_longform {
-  justify-content: space-around;
-}
-
 }
