@@ -30,16 +30,19 @@
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1440px) {
   #section_featured {
-    display: inline-grid;
-    grid-template-columns: repeat(1, 840px);
-    grid-template-rows: repeat(1, 1px);
+    float: left;
+    width: 52.5%;
   }
-  #section_featured .category,
-  #section_featured header,
-  #section_featured article {
-
+  #section_featured .article_card {
+    padding-inline-start: 10rem;
+    padding-inline-end: 10rem;
+    padding-block-start: 12rem;
+    padding-block-end: 8.4rem;
   }
-
+/*
+  #section_featured .rticle_header {
+    padding-block-start: 4rem;
+  } */
 }

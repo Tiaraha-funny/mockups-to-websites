@@ -37,8 +37,11 @@
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width: 1440px) {
   #section_more_news {
-    display: inline-block;
+    float: right;
+    width: 40%;
+    display: block;
   }
+
 }
