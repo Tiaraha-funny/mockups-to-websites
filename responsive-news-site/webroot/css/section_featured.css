@@ -31,5 +31,15 @@
 }
 
 @media (min-width:1024px) {
+  #section_featured {
+    display: inline-grid;
+    grid-template-columns: repeat(1, 840px);
+    grid-template-rows: repeat(1, 1px);
+  }
+  #section_featured .category,
+  #section_featured header,
+  #section_featured article {
+
+  }
 
 }

@@ -36,3 +36,9 @@
     margin-inline-end: 4rem;
   }
 }
+
+@media (min-width:1024px) {
+  #section_more_news {
+    display: inline-block;
+  }
+}
