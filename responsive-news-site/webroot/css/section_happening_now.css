@@ -29,3 +29,40 @@
     grid-column-end: 3;
   }
 }
+
+@media (min-width:1440px) {
+  #section_happening_now {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  #section_happening_now header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  .article_card {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-right: 3rem;
+  }
+  .article_simple:nth-of-type(3) {
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .article_simple:nth-of-type(4) {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .article_simple:nth-of-type(5) {
+    display: flex;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    top: 20px;
+  }
+  .article_simple {
+  width: 100%;
+  height: 30%;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-template-rows: repeat(1, 272px);
+  }
+}

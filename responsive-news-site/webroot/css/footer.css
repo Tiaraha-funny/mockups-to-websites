@@ -91,3 +91,7 @@ body > footer a {
   margin-block-start: 0;
 }
 }
+@media (min-width:1440px) {
+  footer {
+  }
+}
